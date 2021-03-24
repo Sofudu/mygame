@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="window_file">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>256</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #0de03b;
+	font: 14pt &quot;MS Serif&quot;;
+}
+
+QPushButton:hover {
+	background-color: #0ca82e;
+}</string>
+    </property>
+    <property name="text">
+     <string>Поздравляю</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>520</y>
+      <width>431</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Вы выиграли бой и получили 20 exp и 100 золота.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="level">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Уровень: 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hp">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>HP: 100/100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heart">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>font: 14pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="exp">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>exp: 0/100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gold">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Serif&quot;;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Золото: 0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #e50909;
+	font: 14pt &quot;MS Serif&quot;;
+}
+
+QPushButton:hover {
+	background-color: #ba0909;
+}</string>
+    </property>
+    <property name="text">
+     <string>Сожалею</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #876565;
+	font: 14pt &quot;MS Serif&quot;;
+}
+
+QPushButton:hover {
+	background-color: #634949;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ничья</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>438</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
